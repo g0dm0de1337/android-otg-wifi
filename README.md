@@ -13,7 +13,7 @@ termux-usb -l
 
 termux-usb -r [external device id]
 
-nano usbtest.c
+nano usb.c
 
 ( copy and paste script from downloaded 'usb script' without bracket  )
 
@@ -21,7 +21,7 @@ gcc usb.c -lusb-1.0 -o usb
 
 termux-usb -e ./usb [external device id/mac adress]
 
-sudo ifconfig wlan1 up
+(sudo)ifconfig wlan1 up
 
 
 
