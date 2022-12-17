@@ -17,9 +17,9 @@ nano usbtest.c
 
 ( copy and paste script from downloaded 'usb script' without bracket  )
 
-gcc usbtest.c -lusb-1.0 -o usbtest
+gcc usb.c -lusb-1.0 -o usb
 
-termux-usb -e ./usbtest [external device id]
+termux-usb -e ./usb [external device id/mac adress]
 
 sudo ifconfig wlan1 up
 
