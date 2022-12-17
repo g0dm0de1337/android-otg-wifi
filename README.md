@@ -1,5 +1,6 @@
 # android-otg-wifi
 register with termux-api your wifi-stick on your android
+#works on Termux !!
 
 
 
@@ -11,11 +12,12 @@ pkg install termux-api libusb clang
 
 termux-usb -l
 
-termux-usb -r [external device id]
+termux-usb -r [external device id/mac adress]
 
 nano usb.c
 
-( copy and paste script from downloaded 'usb.c script' without bracket  )
+( copy and paste script from downloaded foldet,
+'usb.c script' without bracket  )
 
 gcc usb.c -lusb-1.0 -o usb
 
