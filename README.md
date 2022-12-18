@@ -16,7 +16,7 @@ termux-usb -r [external device id/mac adress]
 
 nano usb.c
 
-( copy and paste script from downloaded foldet,
+( copy and paste script from downloaded folder,
 'usb.c script' without bracket  )
 
 gcc usb.c -lusb-1.0 -o usb
